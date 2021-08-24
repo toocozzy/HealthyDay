@@ -1,0 +1,30 @@
+@import '../../assets/style/index.scss';
+@import '../../components/navigation/navigation.scss';
+@import '../../components/footer/footer.scss';
+@import '../../components/cookie-bar/cookie-bar.scss';
+
+.single-entry {
+  .header-section {
+    padding: 150px 0 70px 0;
+
+    @media(max-width: 991px) {
+      padding: 120px 0 70px 0;
+    }
+
+    h1 {
+      @media(max-width: 991px) {
+        font-size: 40px;
+      }
+    }
+  }
+
+
+  .content-section {
+    padding-bottom: 100px;
+    .featured-image {
+      min-height: 400px;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}

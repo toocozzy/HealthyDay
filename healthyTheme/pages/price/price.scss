@@ -1,0 +1,37 @@
+@import '../../assets/style/index.scss';
+@import '../../../node_modules/aos/dist/aos.css';
+@import '../../components/navigation/navigation.scss';
+@import '../../components/footer/footer.scss';
+@import '../../components/cookie-bar/cookie-bar.scss';
+
+.page-price {
+  .header-section {
+    padding: 150px 0 70px 0;
+
+    @media(max-width: 991px) {
+      padding: 120px 0 70px 0;
+    }
+
+    h1 {
+      @media(max-width: 991px) {
+        font-size: 40px;
+      }
+    }
+
+    p {
+      @media(max-width: 991px) {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .price-section {
+    padding: 100px 0 0 0;
+  }
+  
+  .details-section {
+    padding: 40px 0 100px 0;
+  }
+}
+
+

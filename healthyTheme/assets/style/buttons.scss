@@ -1,0 +1,116 @@
+/* buttons */
+
+.button-large-red {
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 25px 50px;
+    background-color: #ff3000;
+    transition: all 300ms ease-in-out;
+    letter-spacing: 0.96px;
+}
+
+.button-large-red:hover {
+    background-color: #fb8c23;
+    transform: scale(1.05);
+}
+
+.button-large-orange {
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 25px 50px;
+    background-color: #fb8c23;
+    transition: all 300ms ease-in-out;
+    letter-spacing: 0.96px;
+}
+
+.button-large-orange:hover {
+    background-color: #ff3000;
+    transform: scale(1.05);
+}
+
+.button-medium-orange {
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 37px;
+    background-color: #fb8c23;
+    transition: all 300ms ease-in-out;
+    letter-spacing: 0.96px;
+}
+
+.button-medium-orange:hover {
+    background-color: #ff3000;
+    transform: scale(1.05);
+}
+
+.button-small-blue {
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 13px 27px;
+    background-color: #16BED1;
+    transition: all 300ms ease-in-out;
+    letter-spacing: 0.96px;
+}
+
+.button-small-blue:hover {
+    transform: scale(1.05);
+}
+
+.button-small-green {
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 13px 27px;
+    background-color: #00A36C;
+    transition: all 300ms ease-in-out;
+    letter-spacing: 0.96px;
+}
+
+.button-small-green:hover {
+    transform: scale(1.05);
+}
+
+.button-small-orange {
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 13px 27px;
+    background-color: #FB8C23;
+    transition: all 300ms ease-in-out;
+    letter-spacing: 0.96px;
+}
+
+.button-small-orange:hover {
+    transform: scale(1.05);
+}
+
+.button-small-gray {
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    padding: 13px 27px;
+    background-color: #f4f2f0;
+    transition: all 300ms ease-in-out;
+    letter-spacing: 0.96px;
+}
+
+.button-small-gray:hover {
+    transform: scale(1.05);
+}

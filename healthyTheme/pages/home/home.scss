@@ -1,0 +1,62 @@
+@import "../../assets/style/index.scss";
+@import "../../../node_modules/aos/dist/aos.css";
+@import "../../components/navigation/navigation.scss";
+@import "../../components/footer/footer.scss";
+@import "../../components/modal-info/modal-info.scss";
+@import "../../components/cookie-bar/cookie-bar.scss";
+
+.home-page {
+  .header-section {
+    min-height: 80vh;
+    padding: 120px 0 150px 0;
+
+    h1 {
+      @media (max-width: 567px) {
+        font-size: 35px;
+      }
+    }
+
+    p {
+      @media (max-width: 567px) {
+        font-size: 14px;
+      }
+    }
+
+    .fruits {
+      background-position: bottom;
+    }
+  }
+
+  .values-section {
+    padding: 50px 0 100px 0;
+  }
+
+  .menu-section {
+    padding: 50px 0;
+    min-height: 60vh;
+    @media (max-width: 991px) {
+      padding: 80px 0;
+      min-height: unset;
+    }
+  }
+
+  .steps-section {
+    padding: 50px 0;
+  }
+
+  .contact-section {
+    padding: 100px 0;
+
+    @media (max-width: 991px) {
+      padding: 80px 0;
+    }
+  }
+
+  .testimonial-section {
+    padding: 100px 0 150px 0;
+
+    @media (max-width: 991px) {
+      padding: 80px 0;
+    }
+  }
+}

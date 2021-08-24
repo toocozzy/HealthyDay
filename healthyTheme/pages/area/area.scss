@@ -1,0 +1,56 @@
+@import '../../assets/style/index.scss';
+@import '../../../node_modules/aos/dist/aos.css';
+@import '../../../node_modules/@tarekraafat/autocomplete.js/dist/css/autoComplete.css';
+@import '../../components/navigation/navigation.scss';
+@import '../../components/footer/footer.scss';
+@import '../../components/cookie-bar/cookie-bar.scss';
+
+.page-area {
+  .header-section {
+    padding: 150px 0 70px 0;
+
+    @media(max-width: 991px) {
+      padding: 120px 0 70px 0;
+    }
+
+    h1 {
+      @media(max-width: 991px) {
+        font-size: 40px;
+      }
+    }
+  }
+
+  .form-section {
+    form {
+      .autocomplete {
+        top: 100%;
+        left: 0;
+        position: absolute;
+        z-index: 9;
+        background: #111111;
+        width: 100%;
+
+        li {
+          text-transform: capitalize;
+          color: #ffffff;
+
+          &:nth-of-type(1n+8) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .area-section {
+    #map {
+      height: 600px;
+    }
+  }
+
+  .rules-section {
+    padding: 100px 0 100px 0;
+  }
+}
+
+

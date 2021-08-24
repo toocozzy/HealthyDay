@@ -1,0 +1,17 @@
+@import '../../assets/style/index.scss';
+@import '../../../node_modules/aos/dist/aos.css';
+@import '../../components/navigation/navigation.scss';
+@import '../../components/footer/footer.scss';
+@import '../../components/cookie-bar/cookie-bar.scss';
+
+.page-diet {
+  .header-section {
+    padding: 100px 0 200px 0;
+    min-height: 60vh;
+
+    @media(max-width: 991px) {
+      padding: 120px 0;
+    }
+  }
+}
+

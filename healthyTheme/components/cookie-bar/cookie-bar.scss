@@ -1,0 +1,7 @@
+.cookie-bar {
+  display: none;
+
+  &.active {
+    display: flex;
+  }
+}
